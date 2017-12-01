@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Coinigy Websocket Example</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/epoch/0.8.4/css/epoch.min.css" />
+</head>
+<body>
+    
+    <h1> Gauge: </h1>
+    <div id="gaugeChart" class="epoch gauge-small"></div>
+
+    <h1> Area chart: </h1>
+    <div id="areaChart" class="epoch" style="width: 100%; height: 300px;border:solid 1px #C0C0C0;"></div>
+
+    <h1> Line chart: </h1>
+    <div id="lineChart" class="epoch" style="width: 100%; height: 300px;border:solid 1px #C0C0C0;"></div>
+
+    <!-- Scripts -->
+    <script src="Scripts/jquery-1.11.2.min.js"></script>
+
+    <script src="Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <script src="signalr/hubs"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.8/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/epoch/0.8.4/js/epoch.min.js"></script>
+
+    <script src="Scripts/scripts.js"></script>
+</body>
+</html>
